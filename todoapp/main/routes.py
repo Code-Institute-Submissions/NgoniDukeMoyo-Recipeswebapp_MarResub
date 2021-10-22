@@ -1,5 +1,7 @@
 from flask import Blueprint, render_template, redirect, url_for, request
 
+from bsonobjectid import ObjectId
+
 from todoapp.extentions import mango
 
 main = Blueprint('__name__')
@@ -19,4 +21,20 @@ def add_todo():
 
 @main.route('/complete_todo/<oid>')
 def complete_todo(oid):
+    todos_collection = mango.db.todos
+    todo_item = todos_collection.find_one({'_id': ObjectId(oid)})
+    todo_item['complete'] = True
+    todos_collection.save(todo_item)
+    return redirect(url_for('main.index'))
+
+@main.route('/delet_completed')
+def delet_completed:
+    todos_collection = mango.db.todos 
+    todos_collection.delete_many({'complete': True})
+    return redirect(url_for('main.index'))
+
+@main.route('/delete_all')
+def delete_all():
+    todos_collection = mango.db.todos 
+    todos_collection.delete_many({})
     return redirect(url_for('main.index'))
