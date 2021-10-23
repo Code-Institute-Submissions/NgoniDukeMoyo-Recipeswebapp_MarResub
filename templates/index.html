@@ -21,7 +21,7 @@
 			<div class="col-lg-4 col-lg-offset-4" id="content">
 				<h2>WHAT DO YOU WANT TO DO TODAY?</h2>
 
-				<form action="#" method="POST" role="form">
+				<form action="{{ url_for('add_todo') }}" method="POST" role="form">
 					
 					<div class="form-group">
 						<div class="input-group">
@@ -31,5 +31,46 @@
 						  </span>
 						</div>
 					</div>
+				</form>
+
+				<div class="row t10">
+					<div class="col-lg-12">
+						<div class="btn-toolbar">
+							<div class="btn-group">
+								<a type="button" href="{{ url_for('delete_completed') }}" class="btn btn-warning">
+									DELETE COMPLETED
+								</a>
+							</div>
+
+							<div class="btn-group">
+								<a type="button" href="{{ url_for('delete_all') }}" class="btn btn-warning">
+									DELETE ALL
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<ul class="list-group t20">
+					{% for todo in todos %}
+					<a href="{{ url_for('complete', oid=todo._id )}}">
+						<li class="list-group-item {% if todo.complete %}todo-completed{% endif %}">
+							{{ todo.text }}
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="row pad">
+				<div class="col-lg-12 text-center">
+					Copyright &copy; 2021 <strong>ToDo App</strong>
+				</div>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>
