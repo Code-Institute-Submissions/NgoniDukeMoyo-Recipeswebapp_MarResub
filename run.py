@@ -1,6 +1,7 @@
 import os
 from flask import Flask, render_template, request, url_for, redirect
 from flask_pymongo import PyMongo
+from bson.objectid import ObjectId
 
 app = Flask(__name__)
 
@@ -9,9 +10,10 @@ mongo = PyMongo(app)
 
 todos = mongo.db.todosapp
 
-@app.route("/")
+@app.route('/')
 def index():
-    return render_template("index.html")
+    saved_todos = todos.find()
+    return render_template('index.html', todos=saved_todos)
 
 @app.route('/add', methods=['POST'])
 def add_todo():

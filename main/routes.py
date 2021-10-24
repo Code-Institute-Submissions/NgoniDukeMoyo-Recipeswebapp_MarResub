@@ -28,7 +28,7 @@ def complete_todo(oid):
     return redirect(url_for('main.index'))
 
 @main.route('/delet_completed')
-def delet_completed:
+def delet_completed():
     todos_collection = mango.db.todos 
     todos_collection.delete_many({'complete': True})
     return redirect(url_for('main.index'))
