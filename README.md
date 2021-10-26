@@ -69,3 +69,20 @@ The app is designed to be simple and clear in its usage. As soon as client logs 
 3. Returning Visitor Goals
 As a Returning client, they will get exactly the targeted user experience.
 
+---
+
+#### Testing
+
+1. A large amount of testing was done to ensure that all libraries are still appearing in the app as they kept on removing themselves.
+Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues
+ 
+ ### Bugs
+ 1. Self deleting libraries but the tutor said as you deploy on Heroku it will not have these problems.
+
+ ---
+ #### Deployement 
+
+ ## Heroku
+ 1. The project was deployed to Heroku Environment (NgoniDukeMoyo/Recipeswebapp)
+  ---
+  
