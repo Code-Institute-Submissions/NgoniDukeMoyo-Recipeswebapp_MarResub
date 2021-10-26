@@ -50,4 +50,22 @@ As a First Time Visitor, I want to easily understand the main purpose of the sit
 
 ---
 
+### Testing
+HTML Validator
+CSS Validator
+Python Validator
+
+### Testing User Stories from User Experience (UX) Section
+
+## First Time Visitor Goals
+1. As a First Time Visitor, I want to easily understand the main purpose of the site.
+
+ Upon entering the site, users are greeting with a simple and clear usage of the app. With only 3 clearly labeled buttons for the prefered action.
+
+2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the app.
+
+The app is designed to be simple and clear in its usage. As soon as client logs in they clear are aware of each button and labeled functions
+
+3. Returning Visitor Goals
+As a Returning client, they will get exactly the targeted user experience.
 
