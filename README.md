@@ -31,3 +31,23 @@ As a First Time Visitor, I want to easily understand the main purpose of the sit
 1. Interactive elements 
 
 ----
+
+### Technologies
+
+## Languages
+1. HTML
+2. CSS
+3. Flatly
+
+## Frameworks, Libraries & Programs Used
+1. Bootstrap Templates
+2. Flask 2.0.2
+3. Flask-PyMongo 2.3.0
+4. DNSpython 2.1.0
+5. Heroku
+6. MangoDB Atlas
+7. Procfile
+
+---
+
+
