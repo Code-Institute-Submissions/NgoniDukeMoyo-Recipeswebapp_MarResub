@@ -1,17 +1,17 @@
 ## To DOs App
 
 [App Preview](https://8080-blue-bonobo-kfx0kmne.ws-eu17.gitpod.io/)
-![The App](../images/apppreview.png)
+![The App](images/apppreview2.png)
 
-#### This is the main page for the To Do App. It is designed to help clients keep track of their work productivity in terms what has been completed and what still need to be done. They are able to manipulate their data and task by adding to dos, deleted whats has been completed, see their completed task history and get rid of all task once completed.
+#### This is the main page for the To Do App. It is designed to help clients keep track of their work productivity in terms what has been completed and what still need to be done. They are able to manipulate their data and task by adding To Dos, deleted whats has been completed, see their completed task history and get rid of all task once completed.
 ---
 ### User Experience (UX)
 
 ## user stories
 1. First time visters
-As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the features included on the site.
+As a First Time Visitor, I want to easily understand the main purpose of the APP and learn more about the features included in the App.
 
-2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find what i am looking for and be able to add and delete data as easily as possible.
+2. As a First Time Visitor, I want to be able to easily navigate throughout the App to find what i am looking for and be able to add and delete data as easily as possible.
 
 
 ## Returning Visitor Goals
@@ -38,6 +38,7 @@ As a First Time Visitor, I want to easily understand the main purpose of the sit
 1. HTML
 2. CSS
 3. Flatly
+4. Python
 
 ## Frameworks, Libraries & Programs Used
 1. Bootstrap Templates
@@ -51,9 +52,9 @@ As a First Time Visitor, I want to easily understand the main purpose of the sit
 ---
 
 ### Testing
-HTML Validator
-CSS Validator
-Python Validator
+HTML Validator 
+CSS Validator ![CSS](images/cssvalidator.png)
+Python Validator ![Python](images/pythonvalidator.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -83,6 +84,19 @@ Friends and family members were asked to review the site and documentation to po
  #### Deployement 
 
  ## Heroku
- 1. The project was deployed to Heroku Environment (NgoniDukeMoyo/Recipeswebapp)
+ 1. The project was deployed to Heroku Environment (NgoniDukeMoyo/Recipeswebapp) - Unable to change the name of the cluster hence its still named Recipewebapp from the initial project idea.
   ---
+  #### Credits
+  1. Bootstrap4: Bootstrap Library used in the project for forms and grids
+
+  ## Content 
+  1. Content was created by developer
+
+  ## Images
+  1. Images created by developer
+
+  ## Media
+  1. My Mentor for continuous helpful feedback and google for continuous research.
+
   
+
