@@ -1,9 +1,12 @@
 import os
-from flask import Flask, render_template, request, url_for, redirect
+from flask import Flask, render_template, request, flash,  url_for, redirect
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
+if os.path.exists("env.py"):
+    import env
 
 app = Flask(__name__)
+app.secret_key = os.environ.get("SECRET_KEY")
 
 app.config['MONGO_URI'] = 'mongodb+srv://Duke:Kingdong20@recipewebappcluster.crmag.mongodb.net/mydb?retryWrites=true&w=majority'
 mongo = PyMongo(app)
