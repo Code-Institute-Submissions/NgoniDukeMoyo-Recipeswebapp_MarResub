@@ -83,6 +83,22 @@ Friends and family members were asked to review the site and documentation to po
  ---
  #### Deployement 
 
+ ## Github Deployment
+ -The project was deployed to GitHub Pages using the following steps : .Log into the GitHub and locate the GitHub Repository
+.Go to settings button on the menu
+.Scroll down to pages section
+.under source click the dropdown named "none" and select "Master Branch"
+.Scroll down through the page to find the now published link in GitHub pages section.
+
+## Clone 
+On my repos, navigate to the main page of the repository.
+Above the list of files, click Code.
+To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the clipboard. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the clipboard.
+Open Terminal.
+Change the current working directory to the location where you want the cloned directory.
+ype git clone, and then paste the URL you copied earlier.
+Press Enter to create your local clone.
+
  ## Heroku
  1. The project was deployed to Heroku Environment (NgoniDukeMoyo/Recipeswebapp) - Unable to change the name of the cluster hence its still named Recipewebapp from the initial project idea.
   ---
@@ -97,6 +113,29 @@ Friends and family members were asked to review the site and documentation to po
 
   ## Media
   1. My Mentor for continuous helpful feedback and google for continuous research.
+
+  ## Functional Testing 
+   1.  The site performs according to the requirement in all versions ( nav-bar, forms and scroll and links all functional).
+   2. The site performs auto start facility according to the requirements (the video plays auto when site accessed as required).
+   3. The installation of the project can be done smoothly provided the user has the necessary resources and it does not lead to any significant errors (gitphun repo cloning).
+   4. The navigation between relevant modules in on the site are as per the requirement (bootstrap nav-bar is fully functional).
+   5. The site allows necessary social network options such as sharing, posting and navigation etc (throough footer socials
+
+   ## Performance Testing
+  1. The various site and infrastructure bottlenecks which prevent the site to perform at the required acceptability levels has been accessed (boostrap grids are functional).
+  2. The response time of the site is as per as the requirements.
+
+  ## Usability Testing
+1. The icons are natural and consistent with the site.
+2. The buttons, which have the same function have the same color.
+3. The text is kept simple and clear to be visible to the users.
+4. The short sentences and paragraphs are readable to the end users.
+
+## Compatebility Testing
+1. The user Interface of the site is as per the screen size of the device, no text/control is partially invisible or    inaccessible.
+
+## Browser Testing
+1. Chrome Version 95.0.4638.69 (Official Build) (x86_64)
 
   
 
