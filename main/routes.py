@@ -25,6 +25,7 @@ def complete_todo(oid):
     todo_item['complete'] = True
     todos_collection.save(todo_item)
     return redirect(url_for('main.index'))
+    
 
 @main.route('/delet_completed')
 def delet_completed():
