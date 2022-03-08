@@ -99,7 +99,37 @@ Change the current working directory to the location where you want the cloned d
 ype git clone, and then paste the URL you copied earlier.
 Press Enter to create your local clone.
 
- ## Heroku
+ ## Heroku deploymet
+#### Enabling GitHub Integration
+You can configure GitHub integration in the Deploy tab of apps in the Heroku Dashboard.
+![github intergration](images/githubintergration.png)
+To configure GitHub integration, you have to authenticate with GitHub. You only have to do this once per Heroku account.
+![Warnings](images/warnings.png)
+After you link your Heroku app to a GitHub repo, you can selectively deploy from branches or configure auto-deploys.
+If you do not have any apps, you must approve integration for your organization from GitHub. For more information about this process, see Approving OAth Apps for your organization.
+
+### Manual Deploys
+With manual deploys, you can create an immediate deployment of any branch from the GitHub repo that’s connected to your app. Use manual deploys if you want to control when changes are deployed to Heroku.
+![manual deploys](images/manualdeploys.png)
+You can also use manual deploys to temporarily deploy a branch other than the one that’s configured for automatic deployment. For example, you might have a development app synced to the development GitHub branch, but you temporarily want to test a feature branch. Simply trigger a manual deploy of the feature branch to test it on the Heroku app. Note that release of the feature branch is overwritten on the next successful GitHub push to the development branch.
+
+### Automatic Deploys
+When you enable automatic deploys for a GitHub branch, Heroku builds and deploys all pushes to that branch. If, for example, you have a development app on Heroku, you can configure pushes to your GitHub development branch to be automatically built and deployed to that app.
+![The App](images/automaticdeploys.png)
+If you’ve configured your GitHub repo to use automated Continuous Integration (with Travis CI, for example), you can check the “Wait for CI to pass before deploy” checkbox. When enabled, Heroku will only auto-deploy after all the commit statuses of the relevant commit show success.
+This commit won’t auto-deploy because one of the checks shows a pending status:
+![The App](images/failedcommitexample.png)
+
+This commit will auto-deploy because all of the checks show a status of success:
+![The App](images/commitsuccess.png)
+
+
+
+
+
+
+
+
  1. The project was deployed to Heroku Environment (NgoniDukeMoyo/Recipeswebapp) - Unable to change the name of the cluster hence its still named Recipewebapp from the initial project idea.
   ---
   #### Credits
