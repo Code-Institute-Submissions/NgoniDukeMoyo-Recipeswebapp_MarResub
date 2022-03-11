@@ -3,7 +3,7 @@ from bson.objectid import ObjectId
 
 from todoapp.extentions import mango
 
-main = Blueprint('__name__')
+main = Blueprint('main', __name__)
 
 @main.route('/')
 def index():
