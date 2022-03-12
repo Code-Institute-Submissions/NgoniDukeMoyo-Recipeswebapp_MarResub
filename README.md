@@ -2,6 +2,7 @@
 
 [App Preview](https://8080-blue-bonobo-kfx0kmne.ws-eu17.gitpod.io/)
 ![The App](images/apppreview2.png)
+![The App](images/smallscreens.png)
 
 #### This is the main page for the To Do App. It is designed to help clients keep track of their work productivity in terms what has been completed and what still need to be done. They are able to manipulate their data and task by adding To Dos, deleted whats has been completed, see their completed task history and get rid of all task once completed.
 ---
@@ -52,23 +53,23 @@ As a First Time Visitor, I want to easily understand the main purpose of the APP
 ---
 
 ### Testing
-HTML Validator 
-CSS Validator ![CSS](images/cssvalidator.png)
-Python Validator ![Python](images/pythonvalidator.png)
+HTML Validator ![CSS](images/.png)<br>
+CSS Validator ![CSS](images/cssvalidator.png)<br>
+Python Validator ![Python](images/pythonvalidator.png)<br>
 
 ### Testing User Stories from User Experience (UX) Section
 
 ## First Time Visitor Goals
 1. As a First Time Visitor, I want to easily understand the main purpose of the site.
 
- Upon entering the site, users are greeting with a simple and clear usage of the app. With only 3 clearly labeled buttons for the prefered action.
+ Upon entering the site, users are greeting with a simple and clear usage of the app. With only 3 clearly labeled buttons for user request and input action.
 
-2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the app.
+2. As a First Time Visitor, I want to be able to easily navigate throughout the app.
 
-The app is designed to be simple and clear in its usage. As soon as client logs in they clear are aware of each button and labeled functions
+The app is designed to be simple and clear in its usage. As soon as clients are on the site, they clear are aware of fixtures of the site.
 
 3. Returning Visitor Goals
-As a Returning client, they will get exactly the targeted user experience.
+As a Returning client, they will be able to manipulate saved items, recently dealt wit items and distinguish the complete and not complete items.
 
 ---
 
@@ -77,11 +78,8 @@ As a Returning client, they will get exactly the targeted user experience.
 1. A large amount of testing was done to ensure that all libraries are still appearing in the app as they kept on removing themselves.
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues
  
- ### Bugs
- 1. Self deleting libraries but the tutor said as you deploy on Heroku it will not have these problems.
-
  ---
- #### Deployement 
+ #### Deployements 
 
  ## Github Deployment
  -The project was deployed to GitHub Pages using the following steps : .Log into the GitHub and locate the GitHub Repository
@@ -114,7 +112,7 @@ With manual deploys, you can create an immediate deployment of any branch from t
 You can also use manual deploys to temporarily deploy a branch other than the one that’s configured for automatic deployment. For example, you might have a development app synced to the development GitHub branch, but you temporarily want to test a feature branch. Simply trigger a manual deploy of the feature branch to test it on the Heroku app. Note that release of the feature branch is overwritten on the next successful GitHub push to the development branch.
 
 ### Automatic Deploys
-When you enable automatic deploys for a GitHub branch, Heroku builds and deploys all pushes to that branch. If, for example, you have a development app on Heroku, you can configure pushes to your GitHub development branch to be automatically built and deployed to that app.
+When you enable automatic deploys for a GitHub branch, Heroku builds and deploys all pushes to that branch.You can now configure pushes to your GitHub development branch to be automatically built and deployed to that app.
 ![The App](images/automaticdeploys.png)
 If you’ve configured your GitHub repo to use automated Continuous Integration (with Travis CI, for example), you can check the “Wait for CI to pass before deploy” checkbox. When enabled, Heroku will only auto-deploy after all the commit statuses of the relevant commit show success.
 This commit won’t auto-deploy because one of the checks shows a pending status:
@@ -123,43 +121,38 @@ This commit won’t auto-deploy because one of the checks shows a pending status
 This commit will auto-deploy because all of the checks show a status of success:
 ![The App](images/commitsuccess.png)
 
-
-
-
-
-
-
-
+### Bugs
  1. The project was deployed to Heroku Environment (NgoniDukeMoyo/Recipeswebapp) - Unable to change the name of the cluster hence its still named Recipewebapp from the initial project idea.
+ 2. Self deleting libraries but the tutor said as you deploy on Heroku it will not have these problems.
   ---
   #### Credits
-  1. Bootstrap4: Bootstrap Library used in the project for forms and grids
+  1. https://www.youtube.com/watch?v=4kD-GRF5VPs
+  2. https://www.youtube.com/watch?v=yKHJsLUENl0&t=92s
+  3. My Mentor for continuous helpful feedback and google for continuous research.
 
   ## Content 
   1. Content was created by developer
 
   ## Images
   1. Images created by developer
-
-  ## Media
-  1. My Mentor for continuous helpful feedback and google for continuous research.
+  
 
   ## Functional Testing 
-   1.  The site performs according to the requirement in all versions ( nav-bar, forms and scroll and links all functional).
-   2. The site performs auto start facility according to the requirements (the video plays auto when site accessed as required).
-   3. The installation of the project can be done smoothly provided the user has the necessary resources and it does not lead to any significant errors (gitphun repo cloning).
-   4. The navigation between relevant modules in on the site are as per the requirement (bootstrap nav-bar is fully functional).
-   5. The site allows necessary social network options such as sharing, posting and navigation etc (throough footer socials
+   1. The site performs according to the requirement in all versions (responsive add button, link to mangodb database, storing and saving of input date, delete buttons).
+   2. The installation of the project can be done smoothly provided the user has the necessary resources and it does not lead to any significant errors (gitphub repo cloning).
+   3. The navigation between relevant modules in on the site are as per the requirement (the form is fully responsive to user request).
+![Selenium](images/selenium.png)
+   
 
    ## Performance Testing
-  1. The various site and infrastructure bottlenecks which prevent the site to perform at the required acceptability levels has been accessed (boostrap grids are functional).
-  2. The response time of the site is as per as the requirements.
+  1. The various site and infrastructure bottlenecks which prevent the site to perform at the required acceptability levels has been accessed (the form is fully functional to request, the buttons respond to user request and input).
+  2. The response time and redirect of the site is as per as the requirements.
 
   ## Usability Testing
 1. The icons are natural and consistent with the site.
-2. The buttons, which have the same function have the same color.
+2. The buttons, which have respectfully the same function have the same color.
 3. The text is kept simple and clear to be visible to the users.
-4. The short sentences and paragraphs are readable to the end users.
+4. The typography is clear and readable to the end users.
 
 ## Compatebility Testing
 1. The user Interface of the site is as per the screen size of the device, no text/control is partially invisible or    inaccessible.
