@@ -27,8 +27,12 @@ def add_todo():
 @app.route('/complete/<oid>')
 def complete(oid):
     todo_item = todos.find_one({'_id': ObjectId(oid)})
-    todo_item['complete'] = True
-    todos.save(todo_item)
+    status = todo_item['complete']
+    updated_value = { '$set' :
+        {'complete': True}
+    }
+    todos.update_one(todo_item, updated_value)
+    print(todo_item)
     return redirect(url_for('index'))
 
 @app.route('/delete_completed')
@@ -46,4 +50,4 @@ if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
         port=int(os.environ.get("PORT", "5000")),
-        debug=False)
+        debug=True)

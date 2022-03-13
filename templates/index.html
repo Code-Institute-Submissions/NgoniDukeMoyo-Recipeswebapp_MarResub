@@ -10,7 +10,7 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="{{ url_for('static', filename='flatly.min.css') }}" />
-	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
 
 </head>
 <body>
@@ -54,7 +54,7 @@
 				<ul class="list-group t20">
 					{% for todo in todos %}
 					<a href="{{ url_for('complete', oid=todo._id )}}">
-						<li class="list-group-item {% if todo.complete %}todo-completed{% endif %}">
+						<li class="list-group-item {% if todo.complete == True %} todo-completed {% endif %}">
 							{{ todo.text }}
 						</li>
 					</a>
