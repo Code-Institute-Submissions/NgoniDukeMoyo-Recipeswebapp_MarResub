@@ -1,8 +1,8 @@
 ## To DOs App
 
-[App Preview](https://8080-blue-bonobo-kfx0kmne.ws-eu17.gitpod.io/)
-![The App](images/apppreview2.png)
-![The App](images/smallscreens.png)
+[App Preview](https://8080-ngonidukemoyo-recipesweb-yqwxh4tnlqh.ws-eu34.gitpod.io/)
+![The App](images/fullscreenview.png)
+![The App](images/smallscreenview.png)
 
 #### This is the main page for the To Do App. It is designed to help clients keep track of their work productivity in terms what has been completed and what still need to be done. They are able to manipulate their data and task by adding To Dos, deleted whats has been completed, see their completed task history and get rid of all task once completed.
 ---
@@ -53,7 +53,7 @@ As a First Time Visitor, I want to easily understand the main purpose of the APP
 ---
 
 ### Testing
-HTML Validator ![CSS](images/.png)<br>
+HTML Validator ![CSS](images/jinjahtmlvalidation.png)<br>
 CSS Validator ![CSS](images/cssvalidator.png)<br>
 Python Validator ![Python](images/pythonvalidator.png)<br>
 
