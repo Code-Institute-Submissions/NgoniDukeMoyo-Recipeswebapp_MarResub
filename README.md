@@ -65,6 +65,13 @@ steps:<br>
 3. Ctrl+a to select all the text, ctrl+c to copy it
 4. Paste the source code into the validator.
 
+### PEP8 Python Style Conform
+![Extention.py](images/extentionspypep8.png)
+![Mongo.py](images/mongopypep8.png)
+![Routes.py](images/routespep8.png)
+![Run.py](images/pep8online.png)
+
+
 
 ### Testing User Stories from User Experience (UX) Section
 
