@@ -57,6 +57,15 @@ HTML Validator ![CSS](images/jinjahtmlvalidation.png)<br>
 CSS Validator ![CSS](images/cssvalidator.png)<br>
 Python Validator ![Python](images/pythonvalidator.png)<br>
 
+### Jinja HTML Validation Procedure
+As the HTML validator does not understand jinja, you will need to validate by direct inputby using the page source code.
+steps:<br>
+1. Got the page that you want to get the HTML to validate
+2. Right click on the page and in the context menu choose "View Source"
+3. Ctrl+a to select all the text, ctrl+c to copy it
+4. Paste the source code into the validator.
+
+
 ### Testing User Stories from User Experience (UX) Section
 
 ## First Time Visitor Goals
